@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class () extends Migration {
     /**
      * Run the migrations.
      */
@@ -23,7 +22,7 @@ return new class extends Migration
             $table->string('logo_path')->nullable();
             $table->text('bank_details')->nullable();
             $table->text('default_payment_terms')->nullable();
-            
+
             $table->string('theme_preference')->default('light');
             $table->rememberToken();
             $table->timestamps();
