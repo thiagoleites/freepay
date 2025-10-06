@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/layout/AppSidebar";
-import { Header } from "@/components/layout/Header";
+import { Header } from "@/components/layout/Header.tsx";
 import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
 import ProjectForm from "./pages/ProjectForm";
