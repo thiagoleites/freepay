@@ -45,7 +45,7 @@ export function AppSidebar() {
             <SidebarContent>
                 <div className="px-6 py-4">
                     <h2 className={`font-bold text-lg text-sidebar-foreground ${isCollapsed ? 'hidden' : ''}`}>
-                        FreelanceManager
+                        <span className="font-black text-blue-900 text-2xl">Free</span><span className="font-black">PAY</span>
                     </h2>
                     {isCollapsed && (
                         <div className="w-8 h-8 bg-gradient-accent rounded-lg flex items-center justify-center">
