@@ -81,8 +81,8 @@ export default function ProjectForm() {
           </p>
         </div>
       </div>
-
-      <Card className="max-w-4xl shadow-lg">
+      {/* max-w-7xl  */}
+      <Card className="shadow-lg w-full">
         <CardHeader>
           <CardTitle>Informações do Projeto</CardTitle>
         </CardHeader>

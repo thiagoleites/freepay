@@ -74,7 +74,7 @@ export default function CompanyForm() {
         </div>
       </div>
 
-      <Card className="max-w-2xl shadow-lg">
+      <Card className="w-full shadow-lg">
         <CardHeader>
           <CardTitle>Informações da Empresa</CardTitle>
         </CardHeader>
